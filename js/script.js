@@ -2,6 +2,7 @@
 alert('Witaj, ' + name);
 console.log('Witaj, ' + name);
 
+
 var a = 5,
     h = 6,
     triangleArea = a*h/2;
