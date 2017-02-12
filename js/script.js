@@ -1,3 +1,10 @@
-﻿var name = prompt('Wpisz swoje imię');
-alert('Witaj, ' + name);
-console.log('Witaj, ' + name);
+﻿var femaleNames = ['Asia', 'Kasia', 'Ola', 'Jola'],
+    maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'],
+    allNames = femaleNames.concat(maleNames);
+console.log(allNames);
+
+var newName = ('Marian');
+if (allNames.indexOf(newName) === -1) {
+    var x = allNames.push(newName);
+}
+console.log(allNames);
