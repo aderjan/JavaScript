@@ -1,3 +1,10 @@
-﻿var name = prompt('Wpisz swoje imię');
-alert('Witaj, ' + name);
-console.log('Witaj, ' + name);
+﻿var withButtonClass = document.getElementsByClassName('button');
+console.log(withButtonClass);
+console.log(withButtonClass.length);
+
+for (var k = 0 ; k < 3 ; k++) {
+	function zaalertuj() {
+		alert(withButtonClass.innerText);
+	}
+	zaalertuj();
+}
