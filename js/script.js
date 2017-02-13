@@ -1,3 +1,5 @@
-﻿var name = prompt('Wpisz swoje imię');
-alert('Witaj, ' + name);
-console.log('Witaj, ' + name);
+﻿var list = document.getElementById('list')
+var add = document.getElementById('addElem')
+add.addEventListener('click', function() {
+	list.innerHTML += '<li>item</li>'
+});
