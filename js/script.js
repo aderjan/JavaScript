@@ -12,4 +12,4 @@ function rysujChoinkę(n) {
     }
 }
 
-console.log( rysujChoinkę(n) );
+rysujChoinkę(n);
