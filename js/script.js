@@ -3,11 +3,11 @@
 	var value = (a*h/2);
 	
 	if ( (a > 0) && (h > 0) ) {
-	    return(value);
+	    return value;
 	}
 
 	else {
-	    return('Nieprawidłowe dane');
+	    return 'Nieprawidłowe dane';
 	}
 
 	var triangle1Area = getTriangleArea(10, 15),
