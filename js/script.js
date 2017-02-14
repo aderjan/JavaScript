@@ -1,10 +1,10 @@
-﻿var withButtonClass = document.getElementsByClassName('button');
+﻿var withButtonClass = document.getElementsByClassName('button'),
+    arrayLength = withButtonClass.length;
 console.log(withButtonClass);
-console.log(withButtonClass.length);
 
-for (var k = 0 ; k < 3 ; k++) {
+for (var k = 0 ; k < arrayLength ; k++) {
 	function zaalertuj() {
-		alert(withButtonClass.innerText);
+	    alert(withButtonClass.innerText);
 	}
 	zaalertuj();
 }
